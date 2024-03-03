@@ -9,11 +9,11 @@ function MM(){
     const age = document.getElementById("xx").value
     const bribe = document.getElementById("yy").value
     if (age>=18 & age<=70){
-        document.getElementById("rx").innerHTML = "Lisence Aproved"
+        document.getElementById("rx").innerHTML = "license Aproved"
     }
     else{
         if(age<18 & bribe>=500){
-        document.getElementById("rx").innerHTML = "Lisence Aproved"
+        document.getElementById("rx").innerHTML = "license Aproved"
         }
         else{
             if (age > 70){
@@ -26,7 +26,7 @@ function MM(){
                    
                   }
             else{
-            document.getElementById("rx").innerHTML =  "Lisence Not Approved";
+            document.getElementById("rx").innerHTML =  "license Not Approved";
             return false;
         }
         }
